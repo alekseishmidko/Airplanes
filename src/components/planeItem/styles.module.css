@@ -4,10 +4,10 @@
 }
 
 .image {
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 3/ 2;
   object-fit: cover;
   border-radius: 20px;
-  transform: scale(1.04);
+  transform: scale(1);
 }
 
 .capacity {

@@ -10,15 +10,16 @@ const PlaneItem = ({
 }) => {
   return (
     <>
-      <span>qwerttyy</span>
-      {/* <Link to={`${"/plane"}/${_id}`} className={styles.planeItem}>
+      <Link to={`/plane/${_id}`} className={styles.planeItem}>
         <div className={styles.capacity}>{capacity}</div>
-        {planeImage && <img className={styles.image} src={planeImage} alt="" />}
+        {planeImage && (
+          <img className={styles.image} src={planeImage} alt="PlaneImage" />
+        )}
         <div className={styles.info}>
           <h2 className={styles.title}>{name}</h2>
           <span className={styles.price}>{price}$</span>
         </div>
-      </Link> */}
+      </Link>
     </>
   );
 };
